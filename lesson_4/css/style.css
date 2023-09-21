@@ -1,0 +1,48 @@
+@import url("reset.css");
+
+
+header{
+	color: #182cda;
+}
+
+.content-main-sections {
+	color: #2c7fcc;
+}
+.content-list {
+	color: red;
+}
+.sub-title+p{
+	color: aqua;
+}
+.block>p{
+	color: #d4f70f;
+	font-weight: 700;
+}
+.sub-title-bold {
+	color: #0a0a0a;
+	font-weight: bold;
+}
+
+#paragraph_1,
+#paragraph_2,
+#paragraph_3,
+#paragraph_4,
+#paragraph_5,
+#paragraph_6,
+#paragraph_7,
+#paragraph_9{
+	color: #82df09;
+	font-weight:700;
+}
+
+li{
+	color: #179fdf;
+}
+p,
+a{
+	color: rgb(238, 16, 164);
+	font-style: italic;
+}
+
+
+
