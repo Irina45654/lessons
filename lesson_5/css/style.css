@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600&display=swap');
+@import url("reset.css");
+@font-face {
+	font-family: "Causten";
+	src: url("../fonts/Causten-Black.woff2") format("woff2"),
+	url("../fonts/Causten-Black.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Causten";
+	src: url("../fonts/Causten-Semi-Bold.woff2") format("woff2"),
+	url("../fonts/Causten-Semi-Bold.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+
+}
+@font-face {
+	font-family: "beer-money";
+	src: url("../fonts/beer-money.woff2") format("woff2"),
+	url("../fonts/beer-money.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+
+}
+@font-face {
+	font-family: "Christmas-ScriptC";
+	src: url("../fonts/Christmas-ScriptC.woff2") format("woff2"),
+	url("../fonts/Christmas-ScriptC.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+
+}
+
+
+
+body{
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	color: #7D7D7D;
+}
+
+.title,
+.sub-title,
+.big-sub-title{
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.27;
+}
+
+.title,
+.big-sub-title{
+	color: #37393F;
+	text-transform: capitalize;
+}
+
+.title{
+	font-size: 30px;
+	font-weight: 600;
+	
+}
+
+.sub-title{
+	font-size: 20px;
+	font-weight: 600;
+	color: #6B77E5;
+	
+}
+
+.big-sub-title{
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.text{
+	line-height: 1.47;
+}
+
+.title-mitsubishi,
+.image {
+text-align: center;
+}
+
+.title-mitsubishi {
+	font-family: Christmas-ScriptC;
+	text-decoration: underline;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+.text-mitsubishi {
+	font-family: beer-money;
+	text-align: justify;
+	word-spacing: 12px;
+	color: #000000;
+
+}
+.sub-title-mitsubishi {
+	font-family: Causten;
+	font-weight: 900;
+	text-decoration: underline;
+	text-align: left;
+	text-shadow: 10px 5px 7px #5c5d63;
+	word-spacing: 17px;
+
+}
+.list-mitsubishi-mitsubishi {
+	font-family: Causten;
+	font-weight: 600;
+	text-align: left;
+
+}
+.image {
+	width: 100%;
+}
