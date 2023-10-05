@@ -7,7 +7,6 @@ body{
 	font-size: 18px;
 }
 .consulting {
-	
 	color: #7D7D7D;
 
 }
@@ -51,7 +50,6 @@ body{
 	background-color: #ffffff;
   max-width: 692px;
   margin: 50px auto;
-  
 }
 /*========================================================================*/
 /*стилі для батьківського блоку*/
@@ -72,8 +70,7 @@ body{
 .benefits-image img{
 	width:100%;
  }
-.table {
-}
+
 /*стилі для текстового блоку*/
 .benefits-text{
 	font-size: 18px;
@@ -97,30 +94,36 @@ font-weight: 600;
 line-height: 1.27;
 margin-bottom: 21px; 
 }
-.list-benefits {
 
-}
 .benefits-item {
 	line-height: 1.2;
 	margin-bottom: 30px;
 }
-.jewellery {
+
+.jewellery{
+	margin-bottom: 30px;
 }
+
 .container-jewellery {
 	background-color: #ffffff;
 	max-width: 1169px;
 	max-height: 518px;
+	text-align: left;
+	
 	
 }
 .block-jewellery {
 	font-size: 0;
+
 }
 .jewellery-text {
+	text-align: left;
 	font-size: 20px;
 	max-width: 601px;
 	display: inline-block;
-	padding-right: 38px;
-	padding-bottom: 25px;
+	padding: 25px 38px 21px 0;
+	margin: 0 auto;
+	
 }
 .jewellery-text p{
 	color: #474747;
@@ -147,8 +150,13 @@ padding-right: 37px;
 
 .image-jewellery {
 	padding-right: 22px;
-	
 }
-.image-jewellery-2 {
+.image-jewellery-2{
+}
+
+
+.content{
+	background-color: #7339cf;
 	
+
 }
