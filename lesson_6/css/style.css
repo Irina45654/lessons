@@ -107,7 +107,6 @@ margin-bottom: 21px;
 .container-jewellery {
 	background-color: #ffffff;
 	max-width: 1169px;
-	max-height: 518px;
 	text-align: left;
 	
 	
@@ -143,7 +142,6 @@ padding-right: 37px;
 }
 .jewellery-image {
 	min-width: 568px;
-	max-height: 518px;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -151,12 +149,62 @@ padding-right: 37px;
 .image-jewellery {
 	padding-right: 22px;
 }
-.image-jewellery-2{
+
+.content-block{
+	font-size: 0;
 }
 
-
 .content{
+	max-height: 200px;
+	overflow: scroll;
 	background-color: #7339cf;
-	
+	padding: 30px 40px 20px;
+	font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-weight: 600;
 
+}
+.content p{
+	padding-bottom: 10px;
+}
+.content-image{
+	background-color: #e71f1f;
+	padding: 20px 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.content-image img{
+	width: 100%;
+	max-width: 500px;
+	min-width: 300px;
+	
+	
+}
+
+.content-text{
+		font-size: 20px;
+	max-width: 601px;
+	font-family: 'DM Serif Text', serif;
+	display: inline-block;
+	line-height: 1.3;
+	padding: 10px 5px;
+	margin: 0 auto;
+}
+
+.example {
+	padding: 15px;
+	background-color: #0fbe26;
+	font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-weight: 600;
+}
+.example p{
+	margin-bottom: 20px;
+
+}
+
+.link {
+	color: #a10c0c;
+	display: inline-block;
+	margin-bottom: 20px;
 }
