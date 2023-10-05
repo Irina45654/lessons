@@ -50,8 +50,8 @@ body{
 .container-consulting {
 	background-color: #ffffff;
   max-width: 692px;
-  margin: 0 auto;
-  padding: 140px 0;
+  margin: 50px auto;
+  
 }
 /*========================================================================*/
 /*стилі для батьківського блоку*/
@@ -76,8 +76,10 @@ body{
 }
 /*стилі для текстового блоку*/
 .benefits-text{
+	font-size: 18px;
 	max-width: 346px;
 	display: inline-block;
+	padding-left: 29px;
  }
 .title-benefits {
 	color: #37393F;
@@ -85,14 +87,15 @@ font-family: 'Poppins', sans-serif;
 font-size: 25px;
 font-weight: 600;
 line-height: 1.27;
-margin: 0;
+margin-bottom: 15px;
 }
 .sub-title-benefits {
 	color: #40DDB6;
 font-family: 'Poppins', sans-serif;
 font-size: 20px;
 font-weight: 600;
-line-height: 1.27; 
+line-height: 1.27;
+margin-bottom: 21px; 
 }
 .list-benefits {
 
@@ -103,13 +106,49 @@ line-height: 1.27;
 }
 .jewellery {
 }
+.container-jewellery {
+	background-color: #ffffff;
+	max-width: 1169px;
+	max-height: 518px;
+	
+}
+.block-jewellery {
+	font-size: 0;
+}
+.jewellery-text {
+	font-size: 20px;
+	max-width: 601px;
+	display: inline-block;
+	padding-right: 38px;
+	padding-bottom: 25px;
+}
+.jewellery-text p{
+	color: #474747;
+font-size: 20px;
+line-height: 1.8;
+}
 .sub-title-jewellery {
+	color: #D06B00;
+ font-size: 28px;
 }
 .title-jewellery {
+	color: #0E333D;
+	font-family: 'DM Serif Text', serif;
+font-size: 59px;
+line-height: 1.46;
+padding-right: 37px;
 }
-.block-text-jewellery {
+.jewellery-image {
+	min-width: 568px;
+	max-height: 518px;
+	display: inline-block;
+	vertical-align: top;
 }
+
 .image-jewellery {
+	padding-right: 22px;
+	
 }
 .image-jewellery-2 {
+	
 }
