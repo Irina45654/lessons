@@ -1,0 +1,325 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500);
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,700);
+@import url(https://fonts.googleapis.com/css?family=Cormorant+Infant:700);
+@import url("reset.css");
+
+@font-face {
+	font-family: "Causten";
+	src: url("../fonts/causten-bold-webfont.woff2") format("woff2"),
+	url("../fonts/causten-bold-webfont.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Causten";
+	src: url("../fonts/causten-regular-webfont.woff2") format("woff2"),
+	url("../fonts/causten-regular-webfont.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Core Sans C";
+	src: url("../fonts/coresansc-65bold-webfont.woff2") format("woff2"),
+	url("../fonts/coresansc-65bold-webfont.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+body{
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	color: #7D7D7D;;
+}
+
+.block-licencing {
+	max-width: 1920px;
+	padding: 150px 350px;
+	margin: 0 auto;
+	
+}
+.square {
+width: 12px;
+height: 12px;
+background-color: #40DDB6;
+display: inline-block;
+text-align: center;
+margin-right: 6px;
+}
+
+.sub-title-information {
+	color: #37393F;
+font-weight: 500;
+margin-bottom: 26px;
+text-align: center;
+}
+.title-licencing {
+	color: #37393F;
+text-align: center;
+font-family: Poppins;
+font-size: 60px;
+font-weight: 700;
+line-height: 1.21;
+margin-bottom: 70px;
+}
+.content-icons p{
+font-weight: 400;
+line-height: 1.46;
+}
+.sub-title-fonts,
+.sub-title-photography,
+.sub-title-icons {
+	color: #37393F;
+font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.21;
+}
+.sub-title-fonts,
+.sub-title-photography,
+.sub-title-icons{
+	margin-bottom: 19px;
+}
+.content-photography,
+.content-pexels,
+.content-icons{
+	margin-bottom: 33px;
+}
+.content-unsplash,
+.content-phosphor {
+	margin-bottom: 100px;
+}
+
+.content-photography p{
+font-weight: 400;
+line-height: 1.46;
+}
+
+
+.content-unsplash p,
+.content-pexels p{
+	color: #40DDB6;
+font-weight: 400;
+line-height: 1.46;
+}
+
+.sub-title-phosphor,
+.sub-title-unsplash,
+.sub-title-pexels {
+	color: #37393F;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 700;
+}
+.sub-title-phosphor span,
+.sub-title-unsplash span,
+.sub-title-pexels span{
+	color: #40DDB6;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 400;
+}
+
+.sub-title-pexels,
+.sub-title-unsplash{
+	margin-bottom: 13px;
+}
+
+.content-fonts p{
+font-weight: 400;
+line-height: 1.46;
+}
+
+.content-fonts span{
+	color: #40DDB6;
+font-weight: 500;
+line-height: 1.46;
+}
+
+/*--------------------------------------------------------------------*/
+
+.block-project-information {
+	max-width: 1920px;
+	padding: 150px 350px;
+	margin: 0 auto;
+}
+.block-project-information p{
+	padding-bottom: 35px;
+}
+.sub-title-project-information {
+	color: #37393F;
+font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.27;
+margin-bottom: 15px;
+}
+
+.container-text-project-information {
+	font-weight: 400;
+line-height: 1.46;
+
+}
+
+.numbered-list-project-information,
+.list-project-information {
+	font-weight: 500;
+line-height: 1.46;
+}
+
+.numbered-item-project-information,
+.item-project-information {
+	padding-left: 16px;
+	margin-bottom: 35px;
+}
+
+/*--------------------------------------------------------------------*/
+
+.block-euphoria {
+	color: #807D7E;
+font-family: "Causten";
+font-size: 20px;
+	max-width: 1440px;
+	padding: 100px;
+	margin: 0 auto;
+
+}
+
+
+.sub-title-euphoria {
+	color: #3C4242;
+font-family: "Core Sans C";
+font-size: 28px;
+font-weight: 600;
+line-height: 1.19;
+display: inline-block;
+letter-spacing: 0.56px;
+margin-bottom: 30px;
+}
+.strip {
+	width: 6px;
+height: 28px;
+border-radius: 10px;
+background-color: #8A33FD;
+display: inline-block;
+text-align: left;
+margin-right: 15px;
+
+}
+
+.sub-title-one-stop,
+.sub-title-reexplore{
+	margin-bottom: 25px;
+}
+.sub-title-see-more,
+.sub-title-one-stop,
+.sub-title-reexplore {
+	color: #807D7E;
+font-family: "Core Sans C";
+font-size: 20px;
+font-weight: 600;
+line-height: 1.67;
+letter-spacing: 0.4px;
+
+}
+.text-reexplore-euphoria {
+	margin-bottom: 5px;
+}
+
+.world-euphoria {
+	color: #807D7E;
+font-family: "Causten";
+font-size: 20px;
+font-weight: 700;
+line-height: 1.67;
+letter-spacing: 0.4px;
+}
+
+
+.text-reexplore-euphoria p,
+.text-one-stop-euphoria p{
+	padding-bottom: 20px;
+}
+.sub-title-reexplore,
+.text-reexplore-euphoria,
+.sub-title-one-stop,
+.text-one-stop-euphoria,
+.sub-title-see-more{
+	padding-left: 21px;
+}
+/*------------------------------------------------------------------------*/
+
+
+.jewellery {
+
+}
+.conteiner-jewellery {
+	background-color: #fff;
+	max-width: 1600px;
+	padding: 0 150px;
+	text-align: left;
+	margin: 0 auto;
+}
+.block-jewellery {
+	font-size: 0;
+}
+.jewellery-text {
+	color: #606060;
+font-family: Cormorant Infant;
+font-size: 30px;
+font-weight: 700;
+max-width: 573px;
+display: inline-block;
+margin: 70px 30px 70px 0;
+
+}
+.jewellery-text p{
+margin-right: 89px;
+}
+.mini-sub-title-jewellery {
+	color: #D58417;
+font-size: 20px;
+line-height: 1; 
+margin-bottom: 27px;
+}
+.sub-title-jewellery {
+	color: #000;
+font-size: 64px;
+line-height: 1;
+margin-bottom: 30px ;
+margin-right: 75px;
+
+
+}
+.jewellery-text p{
+line-height: 1.4;
+}
+.jewellery-image {
+	vertical-align: top;
+    display: inline-block;
+    font-size: 0;
+}
+.picture01 {
+	margin-right: 30px;
+    width: 177px;
+    height: 336px;
+	 vertical-align: middle;
+    display: inline-block;
+    border: 1px solid #502203;
+    border-radius: 235px;
+	 padding: 14px 10px 14px 10px;
+
+}
+.picture02 {
+	width: 307px;
+	height: 500px;
+	vertical-align: middle;
+    display: inline-block;
+    border: 1px solid #502203;
+    border-radius: 235px;
+	 padding: 19px 11px 13px 10px;
+
+}
