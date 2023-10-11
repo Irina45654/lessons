@@ -253,73 +253,126 @@ letter-spacing: 0.4px;
 /*------------------------------------------------------------------------*/
 
 
-.jewellery {
-
-}
 .conteiner-jewellery {
-	background-color: #fff;
-	max-width: 1600px;
-	padding: 0 150px;
-	text-align: left;
-	margin: 0 auto;
+	padding: 100px 0;
+    font-family: "Cormorant Infant";
 }
 .block-jewellery {
+	max-width: 1100px;
+	margin: 0 auto;
 	font-size: 0;
 }
 .jewellery-text {
-	color: #606060;
-font-family: Cormorant Infant;
-font-size: 30px;
-font-weight: 700;
-max-width: 573px;
-display: inline-block;
-margin: 70px 30px 70px 0;
-
-}
-.jewellery-text p{
-margin-right: 89px;
+	display: inline-block;
+	max-width: 503px;
+	padding: 70px 0;
+	margin-right: 75px;
+	font-size: 30px;
+	font-weight: 700;
 }
 .mini-sub-title-jewellery {
-	color: #D58417;
-font-size: 20px;
-line-height: 1; 
-margin-bottom: 27px;
+	color: #d58417;
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 27px;
 }
 .sub-title-jewellery {
 	color: #000;
-font-size: 64px;
-line-height: 1;
-margin-bottom: 30px ;
-margin-right: 75px;
-
-
-}
-.jewellery-text p{
-line-height: 1.4;
+	font-size: 64px;
+	line-height: 1;
+	margin-bottom: 30px;
 }
 .jewellery-image {
 	vertical-align: top;
     display: inline-block;
     font-size: 0;
 }
-.picture01 {
+
+
+.first-image {
 	margin-right: 30px;
     width: 177px;
     height: 336px;
-	 vertical-align: middle;
-    display: inline-block;
-    border: 1px solid #502203;
-    border-radius: 235px;
-	 padding: 14px 10px 14px 10px;
-
 }
-.picture02 {
-	width: 307px;
-	height: 500px;
+.first-image img{
+	margin-left: -10px;
+    padding-top: 14px;
+}
+.picture01 {
 	vertical-align: middle;
     display: inline-block;
     border: 1px solid #502203;
     border-radius: 235px;
-	 padding: 19px 11px 13px 10px;
+}
+.picture01 img{
+	border-radius: 235px;
+}
 
+.second-image {
+	width: 307px;
+    height: 500px;
+}
+.second-image img{
+	margin-left: -11px;
+	padding-top: 19px;
+}
+
+.picture02 {
+	vertical-align: middle;
+    display: inline-block;
+    border: 1px solid #502203;
+    border-radius: 235px;
+}
+.picture02 img{
+	border-radius: 235px;
+}
+
+img{
+	vertical-align: top;
+}
+
+/*-------------------------------------------------------*/
+
+
+.practice {
+	padding: 100px 0;
+    font-family: "Cormorant Infant";
+		max-width: 1100px;
+		margin: 0 auto;
+		font-size: 0;
+}
+.block-practice {
+	font-size: 25px;
+	background-color: #3fe4d6;
+	border: 15px double #8A33FD;
+	border-right: none;
+	border-bottom: none;
+	outline: 20px solid #502203;
+	margin-bottom: 40px;
+	border-radius: 5%;
+	
+	
+}
+
+.block-practice p{
+	visibility: hidden;
+}
+.a-practice {
+	font-size: 25px;
+	border-bottom: 6px solid #d82e6f;
+	box-shadow: 7px 10px 30px rgb(23, 8, 110);
+}
+.span-practice {
+	font-size: 25px;
+	outline: 3px solid #502203;
+	opacity: 0.4;
+
+
+}
+.image-practice {
+	width: 300px;
+height: 200px;
+border-radius: 40px 30px 60px 20px;
+outline: 20px solid #4127d3;
+opacity: 0.8;
 }
