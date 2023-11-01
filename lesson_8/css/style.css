@@ -302,6 +302,7 @@ font-size: 18px;
 line-height: 1.46;
 }
 .project-conteiner {
+	margin-bottom: 58px;
 }
 .project-conteiner-upper-cells {
 	margin-bottom: 58px;
@@ -354,25 +355,28 @@ padding-left: 25px;
 	max-width: 100%;
 	margin-bottom: 24px;
 }
-.project-conteiner-lower-cells {
-}
+
 .one-lower-cells {
 	display: inline-block;
+	margin-right: 34px;
 }
 .img-one-lower-cells {
 	background: url('../img/one-lower-cells.png') center / cover no-repeat;
 	min-height: 501px;
 	min-width: 384px;
 	max-width: 100%;
+	margin-bottom: 24px;
 }
 .two-lower-cells {
 	display: inline-block;
+	margin-right: 34px;
 }
 .img-two-lower-cells {
 	background: url('../img/two-lower-cells.png') center / cover no-repeat;
 	min-height: 501px;
 	min-width: 384px;
 	max-width: 100%;
+	margin-bottom: 24px;
 }
 .tree-lower-cells {
 	display: inline-block;
@@ -382,4 +386,25 @@ padding-left: 25px;
 	min-height: 501px;
 	min-width: 384px;
 	max-width: 100%;
+	margin-bottom: 24px;
+}
+
+.gradient{
+	color: #000;
+	font-size: 30px;
+	background: linear-gradient(21deg, rgba(36,46,36,0.8995973389355743) 0%, rgba(247,10,122,1) 100%);
+	padding: 15px;
+	margin-bottom: 30px;
+}
+.gradient-span{
+	color: #000;
+	font-size: 40px;
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(86,253,29,1) 28%, rgba(252,69,146,1) 100%);
+	margin-bottom: 50px;
+}
+.fon{
+	color: #000;
+	font-size: 20px;
+	background: url('../img/1587646418_38-p-besshovnie-foni-dlya-saitov-112.jpg') left ;
+	margin-bottom: 30px;
 }
